@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Palo Alto | Cyber Invaders</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <!--<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo mr-auto"><a href="index.html">Arsha</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/palo-alto-logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="mecanica.html"> Mecánica y premios </a></li>
+          <li><a href="login.php">Sube a tu Nave</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+     
+      <a href="#registro" class="get-started-btn scrollto">Registro</a>
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>
+            Bienvenido Code-Pilot
+            <span> ahora formas parte del <strong>Cyber Defense Squad.</strong> </span>
+          </h1>
+          <div class="d-lg-flex">
+            <a href="#registro" class="btn-get-started scrollto">Registro</a>
+            <a href="mecanica.html" class="btn-watch-video"> MECÁNICA Y PREMIOS </a>
+          </div>          
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <section id="mision" class="mision short">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Esta es tu misión:
+          </h2>
+        </div>
+        <div class="row content text">
+          <div class="col-lg-12">
+            <p>
+              
+              Defender al Sector Digital de todo ciberataque perpetrado por las naves de los Cyber Invaders, que pretenden instalar cualquier tipo de Malware en las Organizaciones.
+              <br>
+              Si estás seguro de tener las habilidades y capacidades para ser parte de nuestro escuadrón…
+              <br>
+              ¿Qué esperas para enlistarte, subir a tu nave, y destruir a todo el malware en el ciberespacio?
+              <br><br>
+              Y recuerda..
+              <span>¡Vencer al Malware te hará ganar!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= About Us Section ======= -->
+    <section id="registro" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content text">
+          <div class="col-lg-2">
+          </div>
+
+          <div class="col-lg-8 hero-form">
+            <h3 class="pb-4">
+              Solo registra tus datos y listo.
+            </h3>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="nombre">Nombre Completo</label>
+                  <input type="text" class="form-control" name="nombre" id="nombre" data-rule="required" data-msg="Ingresa tu nombre completo" />
+                  <div class="validate"></div>
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="alias">Alias / Nickname</label>
+                  <input type="text" class="form-control" name="alias" id="alias" data-rule="minlen:3" data-msg="Ingresa un nombre de al menos 3 caractéres " />
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" placeholder="correo corporativo" class="form-control" name="email" id="email" data-rule="email" data-msg="Ingresa un email válido" />
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="empresa">Empresa</label>
+                  <input type="text" class="form-control" name="empresa" id="empresa" data-rule="required" data-msg="Ingresa el nombre de tu empresa" />
+                  <div class="validate"></div>
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="puesto">Posición laboral</label>
+                  <input type="text" class="form-control" name="puesto" id="puesto" data-rule="required" data-msg="Ingresa tu posición laboral " />
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Selecciona tu avatar</label>
+                <div id="avatars">
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_06.png" />
+                    <img src="assets/img/avatars/avatar_player_06.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_07.png" />
+                    <img src="assets/img/avatars/avatar_player_07.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_08.png" />
+                    <img src="assets/img/avatars/avatar_player_08.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_09.png" />
+                    <img src="assets/img/avatars/avatar_player_09.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_10.png" />
+                    <img src="assets/img/avatars/avatar_player_10.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_11.png" />
+                    <img src="assets/img/avatars/avatar_player_11.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_13.png" />
+                    <img src="assets/img/avatars/avatar_player_13.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_14.png" />
+                    <img src="assets/img/avatars/avatar_player_14.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_15.png" />
+                    <img src="assets/img/avatars/avatar_player_15.png" alt=""/>
+                  </label>
+
+                  <label class="avatars">
+                    <input type="radio" name="avatar" value="avatar_player_17.png" />
+                    <img src="assets/img/avatars/avatar_player_17.png" alt=""/>
+                  </label>
+                  
+                </div>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="privacyCheck1" name="privacyCheck1">
+                <label class="form-check-label" for="privacyCheck1" style="font-size: 11px;">
+                  He leído y aceptado la política de privacidad. Consulta las  <a href="#" target="_blank">políticas de privacidad aquí</a>
+                </label>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Enviando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">¡Tus datos se enviaron con éxito!. Ahora ya puedes jugar </div>
+              </div>
+              <div><button type="submit">Play now!</button></div>
+            </form>
+          </div>
+
+          <div class="col-lg-2">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Palo Alto Networks</span></strong>. Todos los derechos reservados
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <!--<a href="https://wa.me/525549286647" class="btn-bottom"><i class="icofont-whatsapp"></i> Llámanos</a>-->
+  <!--<div id="preloader"></div>-->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
